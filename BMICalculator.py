@@ -4,9 +4,9 @@
 import math
 # Define Function below
 # be sure to return an integer
-def calculateBMI(weight, height):
+def calculateBMI(height, weight):
     bmi = (weight*703)/(height*height)
-    bmi = round(bmi, 2)
+    bmi = round(bmi)
     return bmi
 
 if __name__ == '__main__':
